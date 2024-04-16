@@ -44,7 +44,7 @@ export default function FilterProducts({ categories = ['string'] }: { categories
                                 readOnly
                                 id={link}
                                 type="checkbox"
-                                className="cursor-pointer appearance-none size-4 bg-transparent border rounded border-gray-300 outline outline-1 checked:bg-[#202128]" />
+                                className="cursor-pointer appearance-none size-4 bg-transparent border rounded border-gray-300 outline outline-1 checked:bg-[#202128] dark:checked:bg-gray-300 dark:border-gray-900" />
                             <label htmlFor={link} className="cursor-pointer capitalize flex-grow ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">{link}</label>
                         </Link>
                     )
